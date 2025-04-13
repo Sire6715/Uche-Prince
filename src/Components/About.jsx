@@ -17,11 +17,11 @@ export const About = () => {
       id="About"
       className="min-h-screen flex flex-col bg-purple-600 items-center justify-center relative"
     >
-      <div className="p-[5rem]">
-        <h1 className=" text-7xl font-bold px-6 py-4 flex md:flex-col text-white">
+      <div className="md:p-[5rem] p-[2.5rem]">
+        <h1 className=" md:text-7xl text-3xl font-bold md:px-6 md:py-4 flex md:flex-col text-white mb-6">
           About Me!
         </h1>
-        <p className="text-white text-2xl font-bold px-6 py-4 mb-6 leading-8">
+        <p className="text-white md:text-2xl text-xl font-bold md:px-6 md:py-4 md:mb-6 md:leading-8 leading-6">
           Hi, my name is Uche Prince. I am a recent graduate of the <span className="text-lime-400 font-black"> Federal
           University of Technology, Owerri</span>, where I earned my B.Tech in
           Mathematics. <span className="text-lime-300 font-black">I am a full-stack web designer and an aspiring data
@@ -48,10 +48,10 @@ export const About = () => {
         </p>
       </div>
 
-      <div>
-        <h1 className="text-white text-xl font-black px-0">Skills/Tools</h1>
+      <div className="md:p-[5rem] p-[2.5rem]">
+        <h1 className="text-white text-xl font-black px-0 mb-3.5">Skills/Tools</h1>
 
-        <div className="rounded-xl p-6 hover:translate-y-1 transition-all">
+        <div className="rounded-xl md:p-6 hover:translate-y-1 transition-all">
           <div className="flex flex-wrap gap-4">
             {skills?.map((tech, key) => {
               return (

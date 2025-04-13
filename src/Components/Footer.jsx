@@ -2,9 +2,9 @@ export const Footer = () => {
   return (
     <section
       id="Contact"
-      className="px-[6rem] h-56 flex bg-[#f2f2f2] align-baseline justify-between items-center relative"
+      className="md:px-[6rem] md:p-[5rem] p-[2.5rem] h-56 flex bg-[#f2f2f2] align-baseline justify-between items-center relative"
     >
-      <h1 className="text-7xl flex flex-col font-black text-purple-500">
+      <h1 className="md:text-7xl text-3xl flex flex-col font-black text-purple-500">
         <span>LETS </span> 
         WORK TOGETHER! 
       </h1>
