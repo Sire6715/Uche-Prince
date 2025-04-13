@@ -23,16 +23,16 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
         </div>
 
         <div className="hidden md:flex justify-between items-center h-14 w-2/5 ">
-          <a href="Home" className="text-purple-600">
+          <a href="#Home" className="text-purple-600">
             {" "}
             Home
           </a>
 
-          <a href="About" className="text-purple-600">
+          <a href="#About" className="text-purple-600">
             {" "}
             About
           </a>
-          <a href="Contact" className="text-purple-600">
+          <a href="#Contact" className="text-purple-600">
             {" "}
             Contact me
           </a>

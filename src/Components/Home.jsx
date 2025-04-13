@@ -24,11 +24,11 @@ export const Home = () => {
         </p>
         <div className="md:ml-5 flex align-middle md:w-1/2 mt-[2.5rem] bg-purple-400 h-14">
           <button className="w-1/2 font-bold bg-white text-purple-500 hover:shadow-2xl hover:bg-purple-300 hover:text-white px-4 py-2 m-1 hover:cursor-pointer transition">
-            Porfolio
+            <a href="https://www.datascienceportfol.io/uchepibe">Porfolio</a>
           </button>
           <button className="w-1/2 font-black bg-lime-400 hover:shadow-2xl hover:bg-lime-300 text-white px-4 py-2 hover:cursor-pointer transition">
-            <a href="">
-              Hire me<span>#</span>
+            <a href="mailto:uchepibe@gmai.com">
+              Hire me
             </a>
           </button>
         </div>
